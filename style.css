@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  color:grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://uploads-ssl.webflow.com/638344deb1250235ea1b203b/642702d63c4dc02d32f6e394_Aura%20Clock-BG-1-100.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#clock {
+  font-size: 150px;
+  color: grey;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#time {
+  font-weight: bold;
+  display: inline-block;
+}
+
+#am-pm {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+#switch-btn {
+  font-family: Karla;
+  background-color:transparent;
+  border: none;
+  position: fixed;
+  color:grey;
+  bottom: 20px;
+  right: 20px;
+}
