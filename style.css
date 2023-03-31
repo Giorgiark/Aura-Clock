@@ -9,6 +9,8 @@ body {
   background-image: url('https://uploads-ssl.webflow.com/638344deb1250235ea1b203b/642702d63c4dc02d32f6e394_Aura%20Clock-BG-1-100.jpg');
   background-size: cover;
   background-position: center;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: auto; /* Show vertical scrollbar if needed */
 }
 
 #clock {
